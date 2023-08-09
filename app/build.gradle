@@ -1,14 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 29
-    buildToolsVersion "29.0.2"
+    compileSdkVersion 33
+    buildToolsVersion "33.0.1"
     defaultConfig {
-        applicationId "com.xiangteng.xposed.wechatmultiwebview"
+        applicationId "com.zhangnew.wechatmultiwebview"
         minSdkVersion 23
-        targetSdkVersion 29
-        versionCode 2
-        versionName "1.1"
+        targetSdkVersion 33
+        versionCode 3
+        versionName "1.2"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
