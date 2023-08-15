@@ -26,6 +26,7 @@ public class XposedMain implements IXposedHookLoadPackage {
                     //Log.i(LOG_TAG + "-IntentTarget", target);
                     if (target.equals("com.tencent.mm.plugin.brandservice.ui.timeline.preload.ui.TmplWebViewMMUI")
                             || target.equals("com.tencent.mm.plugin.appbrand.ui.AppBrandUI")
+                            || target.equals("com.tencent.mm.plugin.webview.ui.tools.MMWebViewUI")
                             || target.equals("com.tencent.mm.plugin.webview.ui.tools.WebViewUI")
                             || target.equals("com.tencent.mm.plugin.webview.ui.tools.preload.TmplWebViewTooLMpUI")
                             || target.equals("com.tencent.mm.plugin.brandservice.ui.timeline.preload.ui.TmplWebViewTooLMpUI")) {
