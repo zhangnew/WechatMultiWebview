@@ -17,7 +17,6 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        maven { url "https://raw.githubusercontent.com/rovo89/XposedBridge/gh-pages" }
     }
 }
 

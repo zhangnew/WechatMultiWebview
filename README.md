@@ -13,6 +13,8 @@
 
 ## 更新日志
 
+### 2026.06.29 升级 Xposed 框架为 [libxposed](https://github.com/libxposed/api) 102 版本
+
 ### 2023.08.09 适配 Google Play 版微信 8.0.37
 目前支持阅读公众号文章和小程序页面。如有问题或者需要适配新版本，欢迎提 Issue or PR
 
